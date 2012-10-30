@@ -61,8 +61,8 @@ class WebCamHTTPRequestHandler(BaseHTTPRequestHandler):
     '''
     Just a simple handler that only serves two files
 
-    * PNGs from the webcam "/*.png*
-    * A simple html page that refreshes for the user
+    * PNGs from the webcam (/*.png*)
+    * A simple html page that refreshes for the user (all other paths)
 
     '''
 
